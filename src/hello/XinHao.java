@@ -25,6 +25,7 @@ public class XinHao {
 		String rs = ""; 
 		Scanner in = new Scanner(System.in);
 		int nb = in.nextInt();
+		in.close();
 		int n = nb / 10;
 		int b = nb - n*10;
 		switch (n) {

@@ -9,6 +9,7 @@ public class Time {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		int bjt = in.nextInt();
+		in.close();
 		int utc = 0;
 		
 		if(bjt <= 2359){
