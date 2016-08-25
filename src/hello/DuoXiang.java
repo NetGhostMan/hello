@@ -12,6 +12,7 @@ public class DuoXiang {
 	            //每次循环读2个数
 	            int power = input.nextInt(); // 第一个数为幂次
 	            int coefficient = input.nextInt(); // 第二个数为系数
+	            input.close();
 	            if(power==0){
 	                count+=1; //读到幂次为0时, 计数+1
 	            }

@@ -9,9 +9,10 @@ public class GPS {
 		Scanner in = new Scanner(System.in);
 		String[] GPS = new String[100];
 		String str = in.nextLine();
+		in.close();
 		while(!(str.equals("END"))){
-			if(){
-				
+			if(true){
+				System.out.println(GPS);
 			}
 			
 		}
