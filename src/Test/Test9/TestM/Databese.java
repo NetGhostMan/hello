@@ -19,7 +19,7 @@ public class Databese {
 		// TODO Auto-generated method stub
 		Databese db = new Databese();
 		db.add(new CD("abc", "abc", 4, 60, "..."));
-		db.add(new DVD("def", "def", 4, "..."));
+		db.add(new DVD("def", "def",4, "..."));
 		db.list();
 	}
 
